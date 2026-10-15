@@ -24,7 +24,6 @@ Add WeChat | 添加江树微信: **1796060717**
 - [End-to-End Speech Models | 端到端语音模型](#end-to-end-speech-models--端到端语音模型)
 - [Voice MCP & Coding Agent Voice | 语音 MCP 与编程 Agent 语音](#voice-mcp--coding-agent-voice--语音-mcp-与编程-agent-语音)
 - [Toolkits, Wake Word & Voice Conversion | 语音工具箱, 唤醒词与变声](#toolkits-wake-word--voice-conversion--语音工具箱-唤醒词与变声)
-- [Testing & Evaluation | 测试与评估](#testing--evaluation--测试与评估)
 - [Developer Communities & Resources | 开发者社区与资源](#developer-communities--resources--开发者社区与资源)
 - [Learning Resources | 学习资源](#learning-resources--学习资源)
 - [Related Awesome Lists | 相关资源](#related-awesome-lists--相关资源)
@@ -414,18 +413,6 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 ---
 
-## Testing & Evaluation | 测试与评估
-
-Tools for testing voice agents before and after release: simulated callers, real phone calls, and scored conversations.
-
-用于语音 Agent 上线前后测试的工具：模拟来电、真实电话呼叫与对话评分。
-
-| Name | Description | Notes |
-|------|-------------|-------|
-| [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) | Tests chat, voice and phone agents through simulated multi-turn conversations and real inbound/outbound phone calls, scored on call-quality metrics. Imports tool calls from Vapi, Retell, ElevenLabs and Agentforce for validation. | 商业平台，真实电话与模拟多轮对话测试聊天/语音/电话 Agent，可校验 Vapi/Retell/ElevenLabs/Agentforce 的工具调用 |
-
----
-
 ## Developer Communities & Resources | 开发者社区与资源
 
 ### Communities | 社区平台
@@ -454,6 +441,7 @@ Use these resources to choose an evaluation layer that matches the user outcome.
 | Name | Description | Notes |
 |------|-------------|-------|
 | [Voice Agent Benchmark Landscape](https://github.com/Sophon-LLC/voice-agent-benchmark-landscape) | Source-audited map of 13 public benchmarks with machine-readable capability and license fields, plus a practical selection guide. | 13 个公开基准的来源审计地图；含机器可读能力/许可字段与选型指南 |
+| [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) | Tests chat, voice and phone agents through simulated multi-turn conversations and real inbound/outbound phone calls, scored on call-quality metrics. Imports tool calls from Vapi, Retell, ElevenLabs and Agentforce for validation. | 商业平台，真实电话与模拟多轮对话测试聊天/语音/电话 Agent，可校验 Vapi/Retell/ElevenLabs/Agentforce 的工具调用 |
 | [VoiceAgentBench](https://github.com/ola-krutrim/VoiceAgentBench) | Audio-backed benchmark for single, parallel, sequential, multi-turn, and safety-focused tool calls. | 覆盖单工具、并行/顺序调用、多轮与安全拒绝 |
 | [EVA](https://github.com/ServiceNow/eva) | End-to-end framework scoring both task accuracy and spoken conversation experience over complete voice-agent interactions. | 同时评测完整语音交互的任务准确性与对话体验 |
 | [VoiceComputerBench / TalkAct](https://github.com/19PINE-AI/TalkAct) | Real-time voice conversations coupled to Playwright browser tasks, with verifiable task outcomes. | 实时语音对话结合浏览器操作，并验证任务结果 |
