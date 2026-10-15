@@ -24,6 +24,7 @@ Add WeChat | 添加江树微信: **1796060717**
 - [End-to-End Speech Models | 端到端语音模型](#end-to-end-speech-models--端到端语音模型)
 - [Voice MCP & Coding Agent Voice | 语音 MCP 与编程 Agent 语音](#voice-mcp--coding-agent-voice--语音-mcp-与编程-agent-语音)
 - [Toolkits, Wake Word & Voice Conversion | 语音工具箱, 唤醒词与变声](#toolkits-wake-word--voice-conversion--语音工具箱-唤醒词与变声)
+- [Testing & Evaluation | 测试与评估](#testing--evaluation--测试与评估)
 - [Developer Communities & Resources | 开发者社区与资源](#developer-communities--resources--开发者社区与资源)
 - [Learning Resources | 学习资源](#learning-resources--学习资源)
 - [Related Awesome Lists | 相关资源](#related-awesome-lists--相关资源)
@@ -410,6 +411,18 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [WhisperWriter](https://github.com/savbell/whisper-writer) | ![GitHub Repo stars](https://badgen.net/github/stars/savbell/whisper-writer) | Small Python dictation app: hotkey listens, then auto-types Whisper transcription into the active window. | 轻量 Python 听写，热键触发自动输入 |
 | [nerd-dictation](https://github.com/ideasman42/nerd-dictation) | ![GitHub Repo stars](https://badgen.net/github/stars/ideasman42/nerd-dictation) | Single-file, hackable offline speech-to-text for Linux using VOSK, with Python-based text post-processing. | 单文件可魔改的 Linux 离线听写 |
 | [wyoming-satellite](https://github.com/rhasspy/wyoming-satellite) | ![GitHub Repo stars](https://badgen.net/github/stars/rhasspy/wyoming-satellite) | Remote voice satellite (Wyoming protocol) for Home Assistant on Raspberry Pi with local wake-word detection. | Home Assistant 远程语音卫星，树莓派+本地唤醒词 |
+
+---
+
+## Testing & Evaluation | 测试与评估
+
+Tools for testing voice agents before and after release: simulated callers, real phone calls, and scored conversations.
+
+用于语音 Agent 上线前后测试的工具：模拟来电、真实电话呼叫与对话评分。
+
+| Name | Description | Notes |
+|------|-------------|-------|
+| [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) | Tests chat, voice and phone agents through simulated multi-turn conversations and real inbound/outbound phone calls, scored on call-quality metrics. Imports tool calls from Vapi, Retell, ElevenLabs and Agentforce for validation. | 商业平台，真实电话与模拟多轮对话测试聊天/语音/电话 Agent，可校验 Vapi/Retell/ElevenLabs/Agentforce 的工具调用 |
 
 ---
 
